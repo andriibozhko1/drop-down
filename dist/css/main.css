@@ -1,0 +1,24 @@
+.drop-down {
+  width: 10%;
+  font-family: sans-serif; }
+  .drop-down__title {
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0px 3px 2px gray;
+    text-align: center; }
+  .drop-down__item {
+    padding: 6px 5px 5px 5px;
+    cursor: pointer; }
+    .drop-down__item:hover {
+      background: skyblue;
+      color: blue; }
+  .drop-down__select-item {
+    box-shadow: 0px 2px 3px gray; }
+
+.hide {
+  display: none; }
+
+.material-select {
+  display: none; }
