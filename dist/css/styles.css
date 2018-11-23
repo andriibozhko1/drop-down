@@ -1,9 +1,9 @@
-.drop-down {
+.DropDown {
   width: 10%;
   font-family: sans-serif;
 
   &__title {
-    border:none;
+    border: none;
     padding: 20px;
     cursor: pointer;
     font-weight: 700;
@@ -11,27 +11,27 @@
             box-shadow: 0px 3px 2px gray;
     text-align: center;
   }
+  &__items {
+    -webkit-box-shadow: 0px 1px 1px gray;
+            box-shadow: 0px 1px 1px gray;
+  }
   &__item {
-      padding: 6px 5px 5px 5px;
-      cursor: pointer;
-      &:hover {
-          background-color: rgba(0, 0, 255, 0.1);
-          color:blue;
-      }
+    padding: 6px 5px 5px 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(0, 0, 255, 0.1);
+      color: blue;
+    }
   }
   &__item:last-child {
-    border-top:1px solid gray;
+    border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     padding: 10px;
   }
-  &__select-item {
-      -webkit-box-shadow: 0px 1px 1px gray;
-              box-shadow: 0px 1px 1px gray;
-  }
 }
 .hide {
-    display: none;
+  display: none;
 }
 .material-select {
-    display: none;
+  display: none;
 }
